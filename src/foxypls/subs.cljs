@@ -11,3 +11,8 @@
  ::skillxpdb
  (fn [db]
    (:skillxpdb db)))
+
+(re-frame/reg-sub
+ ::skills
+ (fn [db]
+   (:skills db)))

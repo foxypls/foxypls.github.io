@@ -19,10 +19,10 @@
 (defn nav-bar []
   [:nav {:class "navbar" :role "navigation"}
    [:div {:class "navbar-brand"}
-    [:a {:class "navbar-item" :href= "/"}
+    [:a {:class "navbar-item" :href "/"}
      [:img {:src "logo.png"}]]
 
-    [:a {:role= "button" :class "navbar-burger" :data-target "navbarBasicExample"}
+    [:a {:role "button" :class "navbar-burger" :data-target "navbarBasicExample"}
      [:span {:aria-hidden "true"}]
      [:span {:aria-hidden "true"}]
      [:span {:aria-hidden "true"}]]]
@@ -39,13 +39,24 @@
       [:a {:href "https://github.com/foxypls/foxypls.github.io"}
        [:i {:class "fab fa-github"}]]]]]])
 
+(defn app-menu []
+  (let [skills (re-frame/subscribe [::subs/skills])]
+    [:aside {:class "menu"}
+     [:p {:class "menu-label"}
+      "Skills"]
+     [:ul {:class "menu-list"}
+      (map (fn [s] [:li [:a (val s)]]) @skills)]]))
+
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
     [:div {:class "container"}
      [nav-bar]
-     [:section {:class "section"}
-      [:h1 {:class "title"}
-       @name]
-      [skill-level-panel]]]))
+     [:div {:class "columns"}
+      [:div {:class "column is-narrow"}
+       [app-menu]]
+      [:div {:class "column"}
+       [:h1 {:class "title"}
+        @name]
+       [skill-level-panel]]]]))
 
 

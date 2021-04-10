@@ -1,0 +1,24 @@
+(ns foxypls.CONSTANTS.skills)
+
+(def skills
+  {0 "Woodcutting"
+   1 "Fishing"
+   2 "Firemaking"
+   3 "Cooking"
+   4 "Mining"
+   5 "Smithing"
+   6 "Attack"
+   7 "Strength"
+   8 "Defence"
+   9 "Hitpoints"
+   10 "Thieving"
+   11 "Farming"
+   12 "Ranged"
+   13 "Fletching"
+   14 "Crafting"
+   15 "Runecrafting"
+   16 "Magic"
+   17 "Prayer"
+   18 "Slayer"
+   19 "Herblore"
+   20 "Agility"})
