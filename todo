@@ -5,6 +5,7 @@
         1. decode save file into individual variable parts
         2. populate globals/site pieces with extracted data
     b. multiple text inputs for different cb sim table data (to be swapped maybe to embedded cb sim extension)
+build monster drop table
 3 add skill tabs and navigation
     home
     a. combat drops
