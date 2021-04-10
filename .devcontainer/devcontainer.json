@@ -1,0 +1,12 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+    },
+    "extensions": [
+        "betterthantomorrow.calva"
+    ],
+}
