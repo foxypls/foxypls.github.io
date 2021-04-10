@@ -32,15 +32,34 @@ Woodcutting Modifiers
         Cape Perk
         Axe
         Agility Perks -Woodcutting Interval
+        Mastery Level
     Item Quantity Modifier
         Pet
-        Global Doubling Chance
+        Mastery Level
+        Global Doubling Chance - agility perks, signet, pets
     Other?
         Clue Chaser's
         Potion
         Mastery Pool Threshold
-    Global XP Modifier
-    Global Mastery XP Modifier
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Fishing Modifiers
+    Time Interval Modifier
+        Fishing Amulet
+        Rod
+    Item Quantity Modifier
+        Pet
+        Cape Perk
+        Mastery Level
+        Potion
+        Global Doubling Chance - agility perks, signet, pets
+    Other?
+        Clue Chaser's
+        Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+
+
 
 skill calcs
 
