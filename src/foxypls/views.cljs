@@ -17,7 +17,7 @@
      ]))
 
 (defn nav-bar []
-  [:nav {:class "navbar" :role "navigation"}
+  [:nav {:class "navbar mb-3" :role "navigation"}
    [:div {:class "navbar-brand"}
     [:a {:class "navbar-item" :href "/"}
      [:img {:src "logo.png"}]]
@@ -49,7 +49,7 @@
 
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
-    [:div {:class "container"}
+    [:div {:class "container pl-4 pr-4" :style {:min-width "100vw"}}
      [nav-bar]
      [:div {:class "columns"}
       [:div {:class "column is-narrow"}
