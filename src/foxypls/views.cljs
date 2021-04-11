@@ -41,12 +41,17 @@
        [:i {:class "fab fa-github"}]]]]]])
 
 (defn app-menu []
-  (let [skills (re-frame/subscribe [::subs/skills])]
+  (let [skills (re-frame/subscribe [::subs/skills])
+        combat-menu (re-frame/subscribe [::subs/combat-menu])]
     [:aside {:class "menu"}
      [:p {:class "menu-label"}
       "Skills"]
      [:ul {:class "menu-list"}
-      (map (fn [s] [:li {:key (key s)} [:a (val s)]]) @skills)]]))
+      (map (fn [s] [:li {:key (key s)} [:a (val s)]]) @skills)]
+     [:p {:class "menu-label"}
+      "Combat"]
+     [:ul {:class "menu-list"}
+      (map (fn [s] [:li {:key (key s)} [:a (val s)]]) @combat-menu)]]))
 
 (defn home-panel []
   (let [saved-data (atom "")]

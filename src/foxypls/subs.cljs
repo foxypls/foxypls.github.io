@@ -16,3 +16,8 @@
  ::skills
  (fn [db]
    (:skills db)))
+
+(re-frame/reg-sub
+ ::combat-menu
+ (fn [db]
+   (:combat-menu db)))
