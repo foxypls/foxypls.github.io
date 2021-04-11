@@ -1,6 +1,5 @@
 (ns foxypls.db
-  (:require [foxypls.CONSTANTS.skills :refer [skills]]
-            [foxypls.CONSTANTS.combat-menu :refer [combat-menu]]))
+  (:require [foxypls.CONSTANTS.app-menu :refer [app-menu]]))
 
 
 (def skillxp-db
@@ -14,6 +13,5 @@
 (def default-db
   {:name "Foxypls Mevlor Calcs"
    :skillxpdb (into [] (take 200 skillxp-db))
-   :skills skills
-   :combat-menu combat-menu
+   :app-menu app-menu
    :inputs inputs-db})

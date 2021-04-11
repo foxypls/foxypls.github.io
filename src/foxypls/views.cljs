@@ -18,7 +18,7 @@
      ]))
 
 (defn nav-bar []
-  [:nav {:class "navbar mb-3" :role "navigation"}
+  [:nav {:class "navbar mb-3" :role "navigation" :style {:border "bottom"}}
    [:div {:class "navbar-brand"}
     [:a {:class "navbar-item" :href "/"}
      [:img {:src "logo.png"}]]
@@ -41,17 +41,14 @@
        [:i {:class "fab fa-github"}]]]]]])
 
 (defn app-menu []
-  (let [skills (re-frame/subscribe [::subs/skills])
-        combat-menu (re-frame/subscribe [::subs/combat-menu])]
+  (let [menu-map (re-frame/subscribe [::subs/app-menu])]
     [:aside {:class "menu"}
-     [:p {:class "menu-label"}
-      "Skills"]
-     [:ul {:class "menu-list"}
-      (map (fn [s] [:li {:key (key s)} [:a (val s)]]) @skills)]
-     [:p {:class "menu-label"}
-      "Combat"]
-     [:ul {:class "menu-list"}
-      (map (fn [s] [:li {:key (key s)} [:a (val s)]]) @combat-menu)]]))
+     (map (fn [sm]
+            [:div {:class "container mb-3"}
+             [:p {:class "menu-label"}
+              (name (key sm))]
+             [:ul {:class "menu-list"}
+              (map (fn [li] [:li {:key li} [:a li]]) (val sm))]]) @menu-map)]))
 
 (defn home-panel []
   (let [saved-data (atom "")]

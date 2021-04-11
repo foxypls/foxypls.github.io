@@ -13,11 +13,6 @@
    (:skillxpdb db)))
 
 (re-frame/reg-sub
- ::skills
+ ::app-menu
  (fn [db]
-   (:skills db)))
-
-(re-frame/reg-sub
- ::combat-menu
- (fn [db]
-   (:combat-menu db)))
+   (:app-menu db)))
