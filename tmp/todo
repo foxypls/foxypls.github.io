@@ -1,0 +1,67 @@
+1 create home page - whiteboard.png
+2 text input on the home page
+    save decoding and parsing, cb sim table data
+    a. text input for save file
+        1. decode save file into individual variable parts
+        2. populate globals/site pieces with extracted data
+    b. multiple text inputs for different cb sim table data (to be swapped maybe to embedded cb sim extension)
+build monster drop table
+3 add skill tabs and navigation
+    home
+    a. combat drops
+        slayer
+    b. woodcutting
+    c. fishing
+    d. firemaking
+    e. cooking
+    f. mining
+    g. smithing
+    h. thieving
+    i. farming
+    j. fletching
+    k. crafting
+    l. runecrafting
+    m. herblore
+    n. agility
+    o. dungeon clearing calculations
+4 configurable agility course
+global modifiers
+
+Woodcutting Modifiers
+    Time Interval Modifier
+        God Upgrade
+        Cape Perk
+        Axe
+        Agility Perks -Woodcutting Interval
+        Mastery Level
+    Item Quantity Modifier
+        Pet
+        Mastery Level
+        Global Doubling Chance - agility perks, signet, pets
+    Other?
+        Clue Chaser's
+        Potion
+        Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Fishing Modifiers
+    Time Interval Modifier
+        Fishing Amulet
+        Rod
+    Item Quantity Modifier
+        Pet
+        Cape Perk
+        Mastery Level
+        Potion
+        Global Doubling Chance - agility perks, signet, pets
+    Other?
+        Clue Chaser's
+        Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+
+
+
+skill calcs
+
+parse CONSTANTS from game into sheets

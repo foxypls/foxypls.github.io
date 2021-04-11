@@ -1,0 +1,23 @@
+(ns foxypls.subs
+  (:require
+   [re-frame.core :as re-frame]))
+
+(re-frame/reg-sub
+ ::name
+ (fn [db]
+   (:name db)))
+
+(re-frame/reg-sub
+ ::skillxpdb
+ (fn [db]
+   (:skillxpdb db)))
+
+(re-frame/reg-sub
+ ::app-menu
+ (fn [db]
+   (:app-menu db)))
+
+(re-frame/reg-sub
+ ::save-data
+ (fn [db]
+   (get-in db [:inputs :save-data])))
