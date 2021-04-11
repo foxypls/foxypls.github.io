@@ -16,3 +16,8 @@
  ::app-menu
  (fn [db]
    (:app-menu db)))
+
+(re-frame/reg-sub
+ ::save-data
+ (fn [db]
+   (get-in db [:inputs :save-data])))

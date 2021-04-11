@@ -4,7 +4,7 @@
 
 (defn decode-melvor-idle-save
   [save-data]
-  (-> (get save-data 1)
+  (-> save-data
       (b64/decodeString) ;; Decode base64 (convert ascii to binary)
       (#(. % split ""))
       (#(. % map (fn [x] (. x charCodeAt 0)))) ;; Convert binary string to character-number array

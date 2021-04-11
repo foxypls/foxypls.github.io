@@ -51,26 +51,29 @@
               (map (fn [li] [:li {:key li} [:a li]]) (val sm))]]) @menu-map)]))
 
 (defn home-panel []
-  (let [saved-data (atom "")]
-    [:div {:class "colums"}
+  (let [pasted-data (atom "")
+        save-data (re-frame/subscribe [::subs/save-data])]
+    [:div {:class "columns"}
      [:div {:class "columns column is-4"}
       [:div {:class "column"}
        [:input
         {:class "input is-primary" :type "text" :placeholder "Paste save data"
          :onChange (fn [e]
                      (.preventDefault e)
-                     (reset! saved-data (.-value (.-target e))))}]]
+                     (reset! pasted-data (.-value (.-target e))))}]]
       [:div {:class "column"}
        [:button
         {:class "button is-primary"
          :onClick (fn [e]
                     (.preventDefault e)
-                    (re-frame/dispatch [::events/import-save-data @saved-data]))}
-        "Import"]]]]))
+                    (re-frame/dispatch [::events/import-save-data @pasted-data]))}
+        "Import"]]]
+     [:div {:class "column"}
+      [:p @save-data]]]))
 
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
-    [:div {:class "container pl-4 pr-4" :style {:min-width "100vw"}}
+    [:div {:class "container pl-4 pr-6" :style {:min-width "100vw"}}
      [nav-bar]
      [:div {:class "columns"}
       [:div {:class "column is-narrow"}
