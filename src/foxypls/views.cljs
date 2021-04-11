@@ -1,7 +1,8 @@
 (ns foxypls.views
   (:require
    [re-frame.core :as re-frame]
-   [foxypls.subs :as subs]))
+   [foxypls.subs :as subs]
+   [foxypls.events :as events]))
 
 (defn skill-xp-span [kv]
   (let [k (first (keys kv)) v (last (vals kv))] [:span {:style {:min-width "1rem"} :key k} (str "Level " k ": " v)]))
@@ -45,7 +46,25 @@
      [:p {:class "menu-label"}
       "Skills"]
      [:ul {:class "menu-list"}
-      (map (fn [s] [:li [:a (val s)]]) @skills)]]))
+      (map (fn [s] [:li {:key (key s)} [:a (val s)]]) @skills)]]))
+
+(defn home-panel []
+  (let [saved-data (atom "")]
+    [:div {:class "colums"}
+     [:div {:class "columns column is-4"}
+      [:div {:class "column"}
+       [:input
+        {:class "input is-primary" :type "text" :placeholder "Paste save data"
+         :onChange (fn [e]
+                     (.preventDefault e)
+                     (reset! saved-data (.-value (.-target e))))}]]
+      [:div {:class "column"}
+       [:button
+        {:class "button is-primary"
+         :onClick (fn [e]
+                    (.preventDefault e)
+                    (re-frame/dispatch [::events/import-save-data @saved-data]))}
+        "Import"]]]]))
 
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
@@ -57,6 +76,6 @@
       [:div {:class "column"}
        [:h1 {:class "title"}
         @name]
-       [skill-level-panel]]]]))
+       [home-panel]]]]))
 
 
