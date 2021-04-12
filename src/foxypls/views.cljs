@@ -52,7 +52,7 @@
 
 (defn home-panel []
   (let [pasted-data (atom "")
-        my-sub (re-frame/subscribe [::subs/obstacles])]
+        my-sub (re-frame/subscribe [::subs/shop-skill-modifiers])]
     [:div {:class "columns"}
      [:div {:class "columns column is-4"}
       [:div {:class "column"}

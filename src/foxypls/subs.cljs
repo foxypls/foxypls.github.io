@@ -29,6 +29,14 @@
     [:key :name :category :completionBonuses :interval :modifiers])))
 
 (re-frame/reg-sub
+ ::shop-skill-modifiers
+ (fn [db]
+   (map (fn [su]
+          {:name (get su :name)
+           :modifiers (get-in su [:contains :modifiers])})
+        (:SkillUpgrades (keywordize-keys (:shop db))))))
+
+(re-frame/reg-sub
  ::save-data
  (fn [db]
    (get-in db [:inputs :save-data])))

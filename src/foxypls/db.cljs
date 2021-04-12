@@ -1,6 +1,7 @@
 (ns foxypls.db
   (:require [foxypls.CONSTANTS.app-menu :refer [app-menu]]
-            [foxypls.CONSTANTS.obstacles :refer [obstacles]]))
+            [foxypls.CONSTANTS.obstacles :refer [obstacles]]
+            [foxypls.CONSTANTS.shop :refer [shop]]))
 
 
 (def skillxp-db
@@ -16,4 +17,5 @@
    :skillxpdb (into [] (take 200 skillxp-db))
    :app-menu app-menu
    :obstacles obstacles
+   :shop shop
    :inputs inputs-db})
