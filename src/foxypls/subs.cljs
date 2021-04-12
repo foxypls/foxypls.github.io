@@ -1,6 +1,10 @@
 (ns foxypls.subs
   (:require
-   [re-frame.core :as re-frame]))
+   [clojure.walk :refer [keywordize-keys]]
+   [re-frame.core :as re-frame]
+   [clojure.edn :as clojure.edn]))
+
+;; Layer 1
 
 (re-frame/reg-sub
  ::name
@@ -18,6 +22,22 @@
    (:app-menu db)))
 
 (re-frame/reg-sub
+ ::obstacles
+ (fn [db]
+   (select-keys
+    (keywordize-keys (:obstacles db))
+    [:key :name :category :completionBonuses :interval :modifiers])))
+
+(re-frame/reg-sub
  ::save-data
  (fn [db]
    (get-in db [:inputs :save-data])))
+
+;; Layer 2
+
+(re-frame/reg-sub
+ ::save-data-keys
+ (fn [_ _]
+   (re-frame/subscribe [::save-data]))
+ (fn [save-data _]
+   (keys (clojure.edn/read-string save-data))))

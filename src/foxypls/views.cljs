@@ -52,7 +52,7 @@
 
 (defn home-panel []
   (let [pasted-data (atom "")
-        save-data (re-frame/subscribe [::subs/save-data])]
+        my-sub (re-frame/subscribe [::subs/obstacles])]
     [:div {:class "columns"}
      [:div {:class "columns column is-4"}
       [:div {:class "column"}
@@ -69,7 +69,7 @@
                     (re-frame/dispatch [::events/import-save-data @pasted-data]))}
         "Import"]]]
      [:div {:class "column"}
-      [:p @save-data]]]))
+      (map (fn [p] [:p p]) @my-sub)]]))
 
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])]
