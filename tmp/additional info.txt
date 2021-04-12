@@ -1,0 +1,2 @@
+max interval >= 250
+max preservation 80%
