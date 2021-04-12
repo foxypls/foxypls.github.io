@@ -1,0 +1,74 @@
+[
+  {
+    "type": "normal",
+    "level": 1,
+    "interval": 2000,
+    "bonfireInterval": 20000,
+    "bonfireBonus": 5,
+    "xp": 15
+  },
+  {
+    "type": "oak",
+    "level": 10,
+    "interval": 2000,
+    "bonfireInterval": 30000,
+    "bonfireBonus": 10,
+    "xp": 30
+  },
+  {
+    "type": "willow",
+    "level": 25,
+    "interval": 3000,
+    "bonfireInterval": 40000,
+    "bonfireBonus": 15,
+    "xp": 40
+  },
+  {
+    "type": "teak",
+    "level": 35,
+    "interval": 4000,
+    "bonfireInterval": 50000,
+    "bonfireBonus": 20,
+    "xp": 65
+  },
+  {
+    "type": "maple",
+    "level": 45,
+    "interval": 5000,
+    "bonfireInterval": 60000,
+    "bonfireBonus": 25,
+    "xp": 80
+  },
+  {
+    "type": "mahogany",
+    "level": 55,
+    "interval": 6000,
+    "bonfireInterval": 70000,
+    "bonfireBonus": 30,
+    "xp": 100
+  },
+  {
+    "type": "yew",
+    "level": 60,
+    "interval": 7000,
+    "bonfireInterval": 80000,
+    "bonfireBonus": 35,
+    "xp": 150
+  },
+  {
+    "type": "magic",
+    "level": 75,
+    "interval": 10000,
+    "bonfireInterval": 90000,
+    "bonfireBonus": 40,
+    "xp": 225
+  },
+  {
+    "type": "redwood",
+    "level": 90,
+    "interval": 15000,
+    "bonfireInterval": 100000,
+    "bonfireBonus": 45,
+    "xp": 280
+  }
+]

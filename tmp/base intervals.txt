@@ -1,0 +1,9 @@
+baseMiningInterval: 3000
+baseThievingInterval: 3000
+smithInterval: 2000
+craftInterval: 3000
+fletchInterval: 2000
+herbloreInterval: 2000
+magicInterval: 2000
+runecraftInterval: 2000
+cooking Interval: 3000
