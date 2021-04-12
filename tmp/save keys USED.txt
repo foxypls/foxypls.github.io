@@ -30,7 +30,7 @@ scheduledPushNotifications
 
 nextLevelProgress
 
-chosenAgilityObstacles
++chosenAgilityObstacles
 
 craftingMastery
 
@@ -134,7 +134,7 @@ raidCoins
 
 randomModifiers
 
-currentAxe
++currentAxe
 
 herbloreMastery
 
@@ -158,7 +158,7 @@ currentGamemode
 
 statsCrafting
 
-MASTERY
++MASTERY
 
 statsFarming
 
@@ -200,7 +200,7 @@ autoSlayer
 
 xmasPresents
 
-skillXP
++skillXP
 
 golbinRaidHistory
 
@@ -216,7 +216,7 @@ combatData
 
 statsMining
 
-agilityPassivePillarActive
++agilityPassivePillarActive
 
 showSkillNav
 
@@ -240,7 +240,7 @@ myBankVersion
 
 secretAreaUnlocked
 
-currentRod
++currentRod
 
 ignoreBankFull
 

@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Pillar of Combat",
+    "description": "Random flavour text",
+    "cost": {
+      "gp": 50000000,
+      "slayerCoins": 0,
+      "items": [
+        [
+          58,
+          10000
+        ],
+        [
+          133,
+          10000
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedMeleeEvasion": 10,
+      "increasedRangedEvasion": 10,
+      "increasedMagicEvasion": 10,
+      "increasedHitpointRegeneration": 2,
+      "increasedSlayerAreaEffectNegationFlat": 5,
+      "increasedMinHitBasedOnMaxHit": 3
+    }
+  },
+  {
+    "name": "Pillar of Skilling",
+    "description": "Random flavour text",
+    "cost": {
+      "gp": 50000000,
+      "slayerCoins": 0,
+      "items": [
+        [
+          58,
+          10000
+        ],
+        [
+          133,
+          10000
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedFarmingYield": 10,
+      "increasedChanceToDoubleItemsGlobal": 3,
+      "increasedGlobalPreservationChance": 3,
+      "increasedGlobalMasteryXP": 2
+    }
+  },
+  {
+    "name": "Pillar of Generosity",
+    "description": "Random flavour text",
+    "cost": {
+      "gp": 50000000,
+      "slayerCoins": 0,
+      "items": [
+        [
+          58,
+          10000
+        ],
+        [
+          133,
+          10000
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedBankSpace": 10,
+      "increasedChanceToPreservePotionCharge": 10,
+      "increasedPotionChargesFlat": 5,
+      "increasedGPGlobal": 10
+    }
+  }
+]
