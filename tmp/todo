@@ -1,3 +1,25 @@
+1. parse save data variables
+    1.a. parse new save data for what's important for calcs
+2. set up agility course selector
+    2.a. auto input agility course from save file
+    2.b. create global modifiers from agility
+3. update all time calcs for resources for each skill. adjust for new agility modifiers
+4. add xp/s/hr calcs for each skills
+5. build monster drop table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1 create home page - whiteboard.png
 2 text input on the home page
     save decoding and parsing, cb sim table data
