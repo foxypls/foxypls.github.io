@@ -51,34 +51,34 @@ global modifiers
 
 Woodcutting Modifiers
     Time Interval Modifier
-        God Upgrade
-        Cape Perk
-        Axe
-        Agility Perks -Woodcutting Interval
-        Mastery Level
+        global setting God Upgrade
+        toggle Cape Perk
+        select Axe
+        global agility course Agility Perks -Woodcutting Interval
+        override/game data Mastery Level
     Item Quantity Modifier
-        Pet
-        Mastery Level
-        Global Doubling Chance - agility perks, signet, pets
+        global setting Pet
+        override/game data Mastery Level
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
     Other?
-        Clue Chaser's
-        Potion
-        Mastery Pool Threshold
+        toggle Clue Chaser's
+        select Potion
+        drop down Mastery Pool Threshold
     Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
     Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
 Fishing Modifiers
     Time Interval Modifier
-        Fishing Amulet
-        Rod
+        toggle Fishing Amulet
+        select Rod
     Item Quantity Modifier
-        Pet
-        Cape Perk
-        Mastery Level
-        Potion
-        Global Doubling Chance - agility perks, signet, pets
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
     Other?
-        Clue Chaser's
-        Mastery Pool Threshold
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
     Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
     Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
 
