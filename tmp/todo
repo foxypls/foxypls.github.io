@@ -1,5 +1,6 @@
 1. parse save data variables
     1.a. parse new save data for what's important for calcs
+    2.b create global modifiers from shop data/item data
 2. set up agility course selector
     2.a. auto input agility course from save file
     2.b. create global modifiers from agility
