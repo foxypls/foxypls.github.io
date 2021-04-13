@@ -1,0 +1,10 @@
+{
+  "Bronze": 0,
+  "Iron": 1,
+  "Steel": 2,
+  "Black": 3,
+  "Mithril": 4,
+  "Adamant": 5,
+  "Rune": 6,
+  "Dragon": 7
+}

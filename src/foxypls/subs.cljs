@@ -22,6 +22,11 @@
    (:app-menu db)))
 
 (re-frame/reg-sub
+ ::monsters
+ (fn [db]
+   (:monsters db)))
+
+(re-frame/reg-sub
  ::obstacles
  (fn [db]
    (select-keys
