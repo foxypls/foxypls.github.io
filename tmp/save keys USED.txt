@@ -220,7 +220,7 @@ statsMining
 
 showSkillNav
 
-gameUpdateNotification
++gameUpdateNotification
 
 skillsUnlocked
 
