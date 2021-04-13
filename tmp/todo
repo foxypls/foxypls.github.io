@@ -58,6 +58,7 @@ Woodcutting Modifiers
         override/game data Mastery Level
     Item Quantity Modifier
         global setting Pet
+        drop down Mastery Pool Threshold
         override/game data Mastery Level
         agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
     Other?
@@ -74,6 +75,7 @@ Fishing Modifiers
         global setting Pet
         toggle Cape Perk
         override/game data Mastery Level
+        drop down Mastery Pool Threshold
         select Potion
         agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
     Other?
@@ -81,8 +83,178 @@ Fishing Modifiers
         drop down Mastery Pool Threshold
     Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
     Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
-
-
+Firemaking Modifiers
+    FM IS WEIRD SKIP FOR NOW
+    Time Interval Modifier
+        override/game data Mastery Level
+    Item Quantity Modifier
+        
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Cooking Modifiers
+    Time Interval Modifier
+        toggle God Upgrade
+    Item Quantity Modifier
+        global setting Pet
+        select Potion
+        drop down Mastery Pool Threshold
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Preservation
+        drop down Mastery Pool Threshold
+        toggles Item Preservation - crown, charges, agility perks
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Mining Modifiers
+    Time Interval Modifier
+        toggle God Upgrade
+        select Pickaxe
+        drop down Mastery Pool Threshold
+    Item Quantity Modifier
+        select Pickaxe
+        override/game data Mastery Level
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        select Potion
+        toggle Cape Perk
+        toggle/select Gloves
+        drop down Mastery Pool Threshold
+        (gems are affected by global doubling chance)
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Smithing Modifiers
+    Time Interval Modifier
+        toggle God Upgrade
+    Item Quantity Modifier
+        override/game data Mastery Level
+        drop down Mastery Pool Threshold
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Preservation
+        global setting Pet
+        drop down Mastery Pool Threshold
+        override/game data Mastery Level
+        toggles Item Preservation - crown, charges, agility perks
+    Other?
+        toggle Clue Chaser's
+        select Potion
+        toggle Cape Perk
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Thieving Modifiers
+    Time Interval Modifier
+        toggle Cape Perk
+    Item Quantity Modifier
+        drop down Mastery Pool Threshold
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    GP Gain Modifier
+        global setting Pet
+        drop down Mastery Pool Threshold
+        override/game data Mastery Level
+    Other?
+        toggle Clue Chaser's
+        toggle Gloves
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+////////////////////////////////////////
+Farming Modifiers
+    Time Interval Modifier
+        toggle Fishing Amulet
+        select Rod
+    Item Quantity Modifier
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Fletching Modifiers
+    Time Interval Modifier
+        toggle Fishing Amulet
+        select Rod
+    Item Quantity Modifier
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Crafting Modifiers
+    Time Interval Modifier
+        toggle Fishing Amulet
+        select Rod
+    Item Quantity Modifier
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Runecrafting Modifiers
+    Time Interval Modifier
+        toggle Fishing Amulet
+        select Rod
+    Item Quantity Modifier
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Herblore Modifiers
+    Time Interval Modifier
+        toggle Fishing Amulet
+        select Rod
+    Item Quantity Modifier
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
+Agility Modifiers
+    Time Interval Modifier
+        toggle Fishing Amulet
+        select Rod
+    Item Quantity Modifier
+        global setting Pet
+        toggle Cape Perk
+        override/game data Mastery Level
+        select Potion
+        agility course/global? item toggle Global Doubling Chance - agility perks, signet, pets
+    Other?
+        toggle Clue Chaser's
+        drop down Mastery Pool Threshold
+    Global XP Modifier - firemaking cape, AROS, agility perks, firemaking pet
+    Global Mastery XP Modifier - AROM, agility perks, mastery pet, agility pillar, mastery pool threshold
 
 skill calcs
 
