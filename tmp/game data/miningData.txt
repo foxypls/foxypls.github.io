@@ -1,0 +1,68 @@
+[
+  {
+    "level": 1,
+    "respawnInterval": 5000,
+    "ore": 45,
+    "masteryID": 0
+  },
+  {
+    "level": 1,
+    "respawnInterval": 5000,
+    "ore": 46,
+    "masteryID": 1
+  },
+  {
+    "level": 15,
+    "respawnInterval": 10000,
+    "ore": 47,
+    "masteryID": 2
+  },
+  {
+    "level": 30,
+    "respawnInterval": 10000,
+    "ore": 48,
+    "masteryID": 3
+  },
+  {
+    "level": 30,
+    "respawnInterval": 15000,
+    "ore": 49,
+    "masteryID": 4
+  },
+  {
+    "level": 40,
+    "respawnInterval": 15000,
+    "ore": 50,
+    "masteryID": 5
+  },
+  {
+    "level": 50,
+    "respawnInterval": 20000,
+    "ore": 51,
+    "masteryID": 6
+  },
+  {
+    "level": 70,
+    "respawnInterval": 30000,
+    "ore": 52,
+    "masteryID": 7
+  },
+  {
+    "level": 80,
+    "respawnInterval": 60000,
+    "ore": 53,
+    "masteryID": 8
+  },
+  {
+    "level": 95,
+    "respawnInterval": 120000,
+    "ore": 54,
+    "masteryID": 9
+  },
+  {
+    "level": 1,
+    "respawnInterval": 1000,
+    "ore": 388,
+    "masteryID": 10
+  }
+]

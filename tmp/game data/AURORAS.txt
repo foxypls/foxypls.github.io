@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Surge I",
+    "media": "assets/media/skills/magic/surge_i.svg",
+    "description": "Activate Surge I<br>Attack Speed interval reduced by 0.1s. Increases Ranged Evasion by 5%.",
+    "magicLevelRequired": 15,
+    "effectValue": [
+      100,
+      5
+    ],
+    "runesRequired": [
+      {
+        "id": 389,
+        "qty": 3
+      },
+      {
+        "id": 820,
+        "qty": 1
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Fury I",
+    "media": "assets/media/skills/magic/fury_i.svg",
+    "description": "Activate Fury I<br>Increases your Max Hit by 25. Increases Magic Evasion by 5%.",
+    "magicLevelRequired": 25,
+    "effectValue": [
+      2.5,
+      5
+    ],
+    "runesRequired": [
+      {
+        "id": 391,
+        "qty": 3
+      },
+      {
+        "id": 820,
+        "qty": 1
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Fervor I",
+    "media": "assets/media/skills/magic/fervor_i.svg",
+    "description": "Activate Fervor I<br>Your attacks grant 5% Life Steal. Increases Melee Evasion by 5%.",
+    "magicLevelRequired": 35,
+    "effectValue": [
+      5,
+      5
+    ],
+    "runesRequired": [
+      {
+        "id": 392,
+        "qty": 3
+      },
+      {
+        "id": 820,
+        "qty": 1
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Surge II",
+    "media": "assets/media/skills/magic/surge_ii.svg",
+    "description": "Activate Surge II<br>Attack Speed interval reduced by 0.2s. Increases Ranged Evasion by 10%.",
+    "magicLevelRequired": 40,
+    "effectValue": [
+      200,
+      10
+    ],
+    "runesRequired": [
+      {
+        "id": 389,
+        "qty": 4
+      },
+      {
+        "id": 820,
+        "qty": 2
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Charged I",
+    "media": "assets/media/skills/magic/charged_i.svg",
+    "description": "Activate Charged I<br>Increases your Minimum Hit by 10.",
+    "magicLevelRequired": 45,
+    "effectValue": 1,
+    "runesRequired": [
+      {
+        "id": 395,
+        "qty": 2
+      },
+      {
+        "id": 396,
+        "qty": 2
+      },
+      {
+        "id": 820,
+        "qty": 1
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Fury II",
+    "media": "assets/media/skills/magic/fury_ii.svg",
+    "description": "Activate Fury II<br>Increases your Max Hit by 50. Increases Magic Evasion by 10%.",
+    "magicLevelRequired": 50,
+    "effectValue": [
+      5,
+      10
+    ],
+    "runesRequired": [
+      {
+        "id": 391,
+        "qty": 4
+      },
+      {
+        "id": 820,
+        "qty": 2
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Fervor II",
+    "media": "assets/media/skills/magic/fervor_ii.svg",
+    "description": "Activate Fervor II<br>Your attacks grant 10% Life Steal. Increases Melee Evasion by 10%.",
+    "magicLevelRequired": 60,
+    "effectValue": [
+      10,
+      10
+    ],
+    "runesRequired": [
+      {
+        "id": 392,
+        "qty": 4
+      },
+      {
+        "id": 820,
+        "qty": 2
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Surge III",
+    "media": "assets/media/skills/magic/surge_iii.svg",
+    "description": "Activate Surge III<br>Attack Speed interval reduced by 0.3s. Increases Ranged Evasion by 15%.",
+    "magicLevelRequired": 65,
+    "effectValue": [
+      300,
+      15
+    ],
+    "runesRequired": [
+      {
+        "id": 389,
+        "qty": 5
+      },
+      {
+        "id": 820,
+        "qty": 3
+      }
+    ],
+    "requiredItem": 493
+  },
+  {
+    "name": "Charged II",
+    "media": "assets/media/skills/magic/charged_ii.svg",
+    "description": "Activate Charged II<br>Increases your Minimum Hit by 20.",
+    "magicLevelRequired": 70,
+    "effectValue": 2,
+    "runesRequired": [
+      {
+        "id": 395,
+        "qty": 3
+      },
+      {
+        "id": 396,
+        "qty": 3
+      },
+      {
+        "id": 820,
+        "qty": 2
+      }
+    ],
+    "requiredItem": -1
+  },
+  {
+    "name": "Fury III",
+    "media": "assets/media/skills/magic/fury_iii.svg",
+    "description": "Activate Fury III<br>Increases your Max Hit by 75. Increases Magic Evasion by 15%.",
+    "magicLevelRequired": 75,
+    "effectValue": [
+      7.5,
+      15
+    ],
+    "runesRequired": [
+      {
+        "id": 391,
+        "qty": 5
+      },
+      {
+        "id": 820,
+        "qty": 3
+      }
+    ],
+    "requiredItem": 493
+  },
+  {
+    "name": "Fervor III",
+    "media": "assets/media/skills/magic/fervor_iii.svg",
+    "description": "Activate Fervor III<br>Your attacks grant 15% Life Steal. Increases Melee Evasion by 15%.",
+    "magicLevelRequired": 85,
+    "effectValue": [
+      15,
+      15
+    ],
+    "runesRequired": [
+      {
+        "id": 392,
+        "qty": 5
+      },
+      {
+        "id": 820,
+        "qty": 3
+      }
+    ],
+    "requiredItem": 493
+  },
+  {
+    "name": "Charged III",
+    "media": "assets/media/skills/magic/charged_iii.svg",
+    "description": "Activate Charged III<br>Increases your Minimum Hit by 40.",
+    "magicLevelRequired": 95,
+    "effectValue": 4,
+    "runesRequired": [
+      {
+        "id": 395,
+        "qty": 4
+      },
+      {
+        "id": 396,
+        "qty": 4
+      },
+      {
+        "id": 820,
+        "qty": 3
+      }
+    ],
+    "requiredItem": 493
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "name": "Blinding I",
+    "media": "assets/media/skills/magic/blinding_i.svg",
+    "description": "Lower Enemy Accuracy by 5%<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 10,
+    "chance": 10,
+    "effectValue": 5,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 2
+      },
+      {
+        "id": 394,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Soul Split I",
+    "media": "assets/media/skills/magic/soul_split_i.svg",
+    "description": "Lower Enemy Magic Evasion Rating by 5%<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 15,
+    "chance": 10,
+    "effectValue": 5,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 1
+      },
+      {
+        "id": 394,
+        "qty": 1
+      },
+      {
+        "id": 395,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Weakening I",
+    "media": "assets/media/skills/magic/weakening_i.svg",
+    "description": "Lowers Enemy max hit by 5% (Does not affect Special Attacks)<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 20,
+    "chance": 10,
+    "effectValue": 5,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 3
+      },
+      {
+        "id": 394,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Anguish I",
+    "media": "assets/media/skills/magic/anguish_i.svg",
+    "description": "Enemy takes 5% more damage.<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 30,
+    "chance": 10,
+    "effectValue": 5,
+    "runesRequired": [
+      {
+        "id": 394,
+        "qty": 2
+      },
+      {
+        "id": 396,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Blinding II",
+    "media": "assets/media/skills/magic/blinding_ii.svg",
+    "description": "Lower Enemy Accuracy by 10%<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 30,
+    "chance": 15,
+    "effectValue": 10,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 3
+      },
+      {
+        "id": 394,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Soul Split II",
+    "media": "assets/media/skills/magic/soul_split_ii.svg",
+    "description": "Lower Enemy Magic Evasion Rating by 10%<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 35,
+    "chance": 15,
+    "effectValue": 10,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 2
+      },
+      {
+        "id": 394,
+        "qty": 2
+      },
+      {
+        "id": 395,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Weakening II",
+    "media": "assets/media/skills/magic/weakening_ii.svg",
+    "description": "Lowers Enemy max hit by 10% (Does not affect Special Attacks)<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 40,
+    "chance": 15,
+    "effectValue": 10,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 3
+      },
+      {
+        "id": 394,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Confusion",
+    "media": "assets/media/skills/magic/confusion.svg",
+    "description": "When an Enemy successfully hits you, Enemy takes damage equal to 3% of its remaining HP (Once per Attack Turn.).<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 45,
+    "chance": 10,
+    "effectValue": 3,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 3
+      },
+      {
+        "id": 394,
+        "qty": 2
+      },
+      {
+        "id": 395,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Anguish II",
+    "media": "assets/media/skills/magic/anguish_ii.svg",
+    "description": "Enemy takes 10% more damage.<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 50,
+    "chance": 15,
+    "effectValue": 10,
+    "runesRequired": [
+      {
+        "id": 394,
+        "qty": 3
+      },
+      {
+        "id": 396,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Blinding III",
+    "media": "assets/media/skills/magic/blinding_iii.svg",
+    "description": "Lower Enemy Accuracy by 15%<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 50,
+    "chance": 25,
+    "effectValue": 15,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 4
+      },
+      {
+        "id": 394,
+        "qty": 2
+      },
+      {
+        "id": 822,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Soul Split III",
+    "media": "assets/media/skills/magic/soul_split_iii.svg",
+    "description": "Lower Enemy Magic Evasion Rating by 15%<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 55,
+    "chance": 25,
+    "effectValue": 15,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 3
+      },
+      {
+        "id": 394,
+        "qty": 3
+      },
+      {
+        "id": 395,
+        "qty": 2
+      },
+      {
+        "id": 822,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Weakening III",
+    "media": "assets/media/skills/magic/weakening_iii.svg",
+    "description": "Lowers Enemy max hit by 15% (Does not affect Special Attacks)<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 60,
+    "chance": 25,
+    "effectValue": 15,
+    "runesRequired": [
+      {
+        "id": 390,
+        "qty": 3
+      },
+      {
+        "id": 394,
+        "qty": 1
+      },
+      {
+        "id": 822,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Anguish III",
+    "media": "assets/media/skills/magic/anguish_iii.svg",
+    "description": "Enemy takes 15% more damage.<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 70,
+    "chance": 25,
+    "effectValue": 15,
+    "runesRequired": [
+      {
+        "id": 394,
+        "qty": 4
+      },
+      {
+        "id": 396,
+        "qty": 3
+      },
+      {
+        "id": 822,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Decay",
+    "media": "assets/media/skills/magic/decay.svg",
+    "description": "Enemy takes damage when they successfully attack the Player equal to 2% of their Max HP (Once per Attack Turn.). They also lose a total of 10% Evasion Rating<br>Lasts 3 Attack Turns",
+    "magicLevelRequired": 80,
+    "chance": 10,
+    "effectValue": [
+      2,
+      10
+    ],
+    "runesRequired": [
+      {
+        "id": 822,
+        "qty": 2
+      },
+      {
+        "id": 396,
+        "qty": 1
+      },
+      {
+        "id": 397,
+        "qty": 3
+      }
+    ]
+  }
+]

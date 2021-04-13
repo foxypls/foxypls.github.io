@@ -1,0 +1,327 @@
+[
+  {
+    "id": 0,
+    "name": "Melee Accuracy Potion",
+    "itemID": [
+      535,
+      536,
+      537,
+      538
+    ],
+    "category": 0,
+    "herbloreLevel": 5,
+    "herbloreXP": 8
+  },
+  {
+    "id": 1,
+    "name": "Melee Strength Potion",
+    "itemID": [
+      539,
+      540,
+      541,
+      542
+    ],
+    "category": 0,
+    "herbloreLevel": 60,
+    "herbloreXP": 60
+  },
+  {
+    "id": 2,
+    "name": "Melee Evasion Potion",
+    "itemID": [
+      543,
+      544,
+      545,
+      546
+    ],
+    "category": 0,
+    "herbloreLevel": 10,
+    "herbloreXP": 10
+  },
+  {
+    "id": 3,
+    "name": "Ranged Assistance Potion",
+    "itemID": [
+      547,
+      548,
+      549,
+      550
+    ],
+    "category": 0,
+    "herbloreLevel": 15,
+    "herbloreXP": 14
+  },
+  {
+    "id": 4,
+    "name": "Magic Assistance Potion",
+    "itemID": [
+      551,
+      552,
+      553,
+      554
+    ],
+    "category": 0,
+    "herbloreLevel": 25,
+    "herbloreXP": 22
+  },
+  {
+    "id": 5,
+    "name": "Regeneration Potion",
+    "itemID": [
+      555,
+      556,
+      557,
+      558
+    ],
+    "category": 0,
+    "herbloreLevel": 35,
+    "herbloreXP": 31
+  },
+  {
+    "id": 6,
+    "name": "Damage Reduction Potion",
+    "itemID": [
+      559,
+      560,
+      561,
+      562
+    ],
+    "category": 0,
+    "herbloreLevel": 90,
+    "herbloreXP": 180
+  },
+  {
+    "id": 7,
+    "name": "Bird Nests Potion",
+    "itemID": [
+      563,
+      564,
+      565,
+      566
+    ],
+    "category": 1,
+    "herbloreLevel": 1,
+    "herbloreXP": 5
+  },
+  {
+    "id": 8,
+    "name": "Fishermans Potion",
+    "itemID": [
+      567,
+      568,
+      569,
+      570
+    ],
+    "category": 1,
+    "herbloreLevel": 40,
+    "herbloreXP": 36
+  },
+  {
+    "id": 9,
+    "name": "Controlled Heat Potion",
+    "itemID": [
+      571,
+      572,
+      573,
+      574
+    ],
+    "category": 1,
+    "herbloreLevel": 20,
+    "herbloreXP": 18
+  },
+  {
+    "id": 10,
+    "name": "Generous Cook Potion",
+    "itemID": [
+      575,
+      576,
+      577,
+      578
+    ],
+    "category": 1,
+    "herbloreLevel": 32,
+    "herbloreXP": 28
+  },
+  {
+    "id": 11,
+    "name": "Perfect Swing Potion",
+    "itemID": [
+      579,
+      580,
+      581,
+      582
+    ],
+    "category": 1,
+    "herbloreLevel": 53,
+    "herbloreXP": 53
+  },
+  {
+    "id": 12,
+    "name": "Seeing Gold Potion",
+    "itemID": [
+      583,
+      584,
+      585,
+      586
+    ],
+    "category": 1,
+    "herbloreLevel": 36,
+    "herbloreXP": 33
+  },
+  {
+    "id": 13,
+    "name": "Gentle Hands Potion",
+    "itemID": [
+      587,
+      588,
+      589,
+      590
+    ],
+    "category": 1,
+    "herbloreLevel": 45,
+    "herbloreXP": 41
+  },
+  {
+    "id": 14,
+    "name": "Generous Harvest Potion",
+    "itemID": [
+      591,
+      592,
+      593,
+      594
+    ],
+    "category": 1,
+    "herbloreLevel": 74,
+    "herbloreXP": 112
+  },
+  {
+    "id": 15,
+    "name": "Skilled Fletching Potion",
+    "itemID": [
+      595,
+      596,
+      597,
+      598
+    ],
+    "category": 1,
+    "herbloreLevel": 42,
+    "herbloreXP": 39
+  },
+  {
+    "id": 16,
+    "name": "Crafting Potion",
+    "itemID": [
+      599,
+      600,
+      601,
+      602
+    ],
+    "category": 1,
+    "herbloreLevel": 49,
+    "herbloreXP": 41
+  },
+  {
+    "id": 17,
+    "name": "Elemental Potion",
+    "itemID": [
+      603,
+      604,
+      605,
+      606
+    ],
+    "category": 1,
+    "herbloreLevel": 63,
+    "herbloreXP": 63
+  },
+  {
+    "id": 18,
+    "name": "Herblore Potion",
+    "itemID": [
+      607,
+      608,
+      609,
+      610
+    ],
+    "category": 1,
+    "herbloreLevel": 71,
+    "herbloreXP": 99
+  },
+  {
+    "id": 19,
+    "name": "Magic Damage Potion",
+    "itemID": [
+      615,
+      616,
+      617,
+      618
+    ],
+    "category": 0,
+    "herbloreLevel": 65,
+    "herbloreXP": 85
+  },
+  {
+    "id": 20,
+    "name": "Ranged Strength Potion",
+    "itemID": [
+      611,
+      612,
+      613,
+      614
+    ],
+    "category": 0,
+    "herbloreLevel": 45,
+    "herbloreXP": 45
+  },
+  {
+    "id": 21,
+    "name": "Diamond Luck Potion",
+    "itemID": [
+      633,
+      634,
+      635,
+      636
+    ],
+    "category": 0,
+    "herbloreLevel": 85,
+    "herbloreXP": 160
+  },
+  {
+    "id": 22,
+    "name": "Divine Potion",
+    "itemID": [
+      637,
+      638,
+      639,
+      640
+    ],
+    "category": 0,
+    "herbloreLevel": 57,
+    "herbloreXP": 51
+  },
+  {
+    "id": 23,
+    "name": "Lucky Herb Potion",
+    "itemID": [
+      641,
+      642,
+      643,
+      644
+    ],
+    "category": 0,
+    "herbloreLevel": 50,
+    "herbloreXP": 47
+  },
+  {
+    "id": 24,
+    "name": "Performance Enhancing Potion",
+    "itemID": [
+      966,
+      967,
+      968,
+      969
+    ],
+    "category": 1,
+    "herbloreLevel": 62,
+    "herbloreXP": 61
+  }
+]

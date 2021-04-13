@@ -1,0 +1,421 @@
+[
+  {
+    "name": "Just Learning",
+    "media": "assets/media/skills/magic/magic.svg",
+    "description": "Convert selected item into 1 Rune Essence.<br>5 XP",
+    "magicLevelRequired": 1,
+    "selectItem": 1,
+    "convertTo": 388,
+    "convertToQty": 1,
+    "magicXP": 5,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 389,
+        "qty": 1
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 389,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Superheat I",
+    "media": "assets/media/skills/magic/superheat_i.svg",
+    "description": "Create 1 x bar using 1 x required ores.<br>8 XP",
+    "magicLevelRequired": 5,
+    "selectItem": 0,
+    "convertToQty": 1,
+    "magicXP": 8,
+    "ignoreCoal": false,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 392,
+        "qty": 2
+      },
+      {
+        "id": 393,
+        "qty": 2
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 829,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Item Alchemy I",
+    "media": "assets/media/skills/magic/item_alchemy.svg",
+    "description": "Convert selected item into GP worth 40% of the item base sell value.<br>10 XP",
+    "magicLevelRequired": 10,
+    "effectValue": 0.4,
+    "selectItem": 1,
+    "isAlch": true,
+    "ignoreCoal": false,
+    "magicXP": 10,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 393,
+        "qty": 3
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 393,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "name": "Bone Offering",
+    "media": "assets/media/bank/bones.svg",
+    "description": "Creates 2 x Bones<br>12 XP",
+    "magicLevelRequired": 18,
+    "convertTo": 439,
+    "convertToQty": 2,
+    "selectItem": -1,
+    "magicXP": 12,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 392,
+        "qty": 1
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 392,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Superheat II",
+    "media": "assets/media/skills/magic/superheat_ii.svg",
+    "description": "Create 2 x bars using 1 x required ores.<br>15 XP",
+    "magicLevelRequired": 25,
+    "selectItem": 0,
+    "convertToQty": 2,
+    "ignoreCoal": false,
+    "magicXP": 15,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 392,
+        "qty": 3
+      },
+      {
+        "id": 393,
+        "qty": 3
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 829,
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "name": "Item Alchemy II",
+    "media": "assets/media/skills/magic/item_alchemy.svg",
+    "description": "Convert selected item into GP worth 100% of the item base sell value.<br>18 XP",
+    "magicLevelRequired": 35,
+    "effectValue": 1,
+    "selectItem": 1,
+    "isAlch": true,
+    "ignoreCoal": false,
+    "magicXP": 18,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 393,
+        "qty": 4
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 393,
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "name": "Rags to Riches I",
+    "media": "assets/media/skills/magic/rags_to_riches.svg",
+    "description": "Convert selected Junk item obtained from Fishing into a random Gem.<br>21 XP",
+    "magicLevelRequired": 48,
+    "selectItem": 1,
+    "convertToQty": 1,
+    "isJunk": true,
+    "magicXP": 21,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 391,
+        "qty": 2
+      },
+      {
+        "id": 392,
+        "qty": 2
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 826,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Blessed Offering",
+    "media": "assets/media/bank/holy_dust.svg",
+    "description": "Creates 2 x Holy Dust<br>24 XP",
+    "magicLevelRequired": 56,
+    "effectValue": 0.4,
+    "convertTo": 500,
+    "convertToQty": 2,
+    "selectItem": -1,
+    "magicXP": 24,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 2
+      },
+      {
+        "id": 392,
+        "qty": 1
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 2
+      },
+      {
+        "id": 392,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Superheat III",
+    "media": "assets/media/skills/magic/superheat_iii.svg",
+    "description": "Create 3 x bars using 1 x required ores.<br>28 XP",
+    "magicLevelRequired": 64,
+    "selectItem": 0,
+    "convertToQty": 3,
+    "ignoreCoal": false,
+    "magicXP": 28,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 392,
+        "qty": 4
+      },
+      {
+        "id": 393,
+        "qty": 4
+      },
+      {
+        "id": 823,
+        "qty": 1
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 829,
+        "qty": 4
+      },
+      {
+        "id": 823,
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "name": "Rags to Riches II",
+    "media": "assets/media/skills/magic/rags_to_riches.svg",
+    "description": "Convert Coal Ore into a random Gem.<br>32 XP",
+    "magicLevelRequired": 70,
+    "selectItem": -1,
+    "convertToQty": 1,
+    "needCoal": true,
+    "magicXP": 32,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 2
+      },
+      {
+        "id": 391,
+        "qty": 4
+      },
+      {
+        "id": 392,
+        "qty": 4
+      },
+      {
+        "id": 823,
+        "qty": 2
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 2
+      },
+      {
+        "id": 826,
+        "qty": 4
+      },
+      {
+        "id": 823,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Item Alchemy III",
+    "media": "assets/media/skills/magic/item_alchemy.svg",
+    "description": "Convert selected item into GP worth 160% of the item base sell value.<br>39 XP",
+    "magicLevelRequired": 76,
+    "effectValue": 1.6,
+    "selectItem": 1,
+    "isAlch": true,
+    "magicXP": 39,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 393,
+        "qty": 5
+      },
+      {
+        "id": 823,
+        "qty": 2
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 1
+      },
+      {
+        "id": 393,
+        "qty": 5
+      },
+      {
+        "id": 823,
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "name": "Superheat IV",
+    "media": "assets/media/skills/magic/superheat_iv.svg",
+    "description": "Create 3 x bars using 1 x required ores, ignoring all Coal Requirements.<br>50 XP",
+    "magicLevelRequired": 95,
+    "selectItem": 0,
+    "convertToQty": 3,
+    "ignoreCoal": true,
+    "magicXP": 50,
+    "runesRequired": [
+      {
+        "id": 821,
+        "qty": 2
+      },
+      {
+        "id": 392,
+        "qty": 7
+      },
+      {
+        "id": 393,
+        "qty": 7
+      },
+      {
+        "id": 823,
+        "qty": 3
+      }
+    ],
+    "runesRequiredAlt": [
+      {
+        "id": 821,
+        "qty": 2
+      },
+      {
+        "id": 829,
+        "qty": 7
+      },
+      {
+        "id": 823,
+        "qty": 3
+      }
+    ]
+  }
+]
