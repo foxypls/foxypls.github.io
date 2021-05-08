@@ -1,0 +1,671 @@
+[
+  {
+    "name": "Beavis",
+    "description": "+5% chance to double logs received from Woodcutting",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/woodcutting.png",
+    "acquiredBy": "Woodcutting",
+    "skill": 0,
+    "chance": 5,
+    "modifiers": {
+      "increasedChanceToDoubleItemsSkill": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Pudding Duckie",
+    "description": "<small>Created by Patreon (Moose)</small><br>5% chance to double the amount of Fish per catch.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fishing.png",
+    "acquiredBy": "Fishing",
+    "skill": 1,
+    "chance": 5,
+    "modifiers": {
+      "increasedChanceToDoubleItemsSkill": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Pyro",
+    "description": "+1% Global Skill XP.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/firemaking.png",
+    "acquiredBy": "Firemaking",
+    "skill": 2,
+    "chance": 1,
+    "modifiers": {
+      "increasedGlobalSkillXP": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Cris",
+    "description": "5% Chance to receive 2x Cooked Fish",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/cooking.svg",
+    "acquiredBy": "Cooking",
+    "skill": 3,
+    "chance": 5,
+    "modifiers": {
+      "increasedChanceToDoubleItemsSkill": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Cool Rock",
+    "description": "All mining nodes gain +5 Max HP.<br>Named after CoolRox95",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/cool_rock.svg",
+    "acquiredBy": "Mining",
+    "skill": 4,
+    "modifiers": {
+      "increasedMiningNodeHP": 5
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Puff, the Baby Dragon",
+    "description": "+10% chance to preserve resources when Smithing.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/smithing.svg",
+    "acquiredBy": "Smithing",
+    "skill": 5,
+    "chance": 10,
+    "modifiers": {
+      "increasedSkillPreservationChance": [
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Snek",
+    "description": "Gain 50% Extra Gold from Thieving",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/thieving.png",
+    "acquiredBy": "Thieving",
+    "skill": 10,
+    "modifiers": {
+      "increasedGPFromThieving": 50
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Larry, the Lonely Lizard",
+    "description": "+15 Harvest Quantity",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/farming.png",
+    "acquiredBy": "Farming",
+    "skill": 11,
+    "activeInRaid": false
+  },
+  {
+    "name": "Quill",
+    "description": "Reduced Fletching interval by 0.2s",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fletching.svg",
+    "acquiredBy": "Fletching",
+    "skill": 13,
+    "modifiers": {
+      "decreasedSkillInterval": [
+        [
+          13,
+          200
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Caaarrrlll",
+    "description": "Reduced Crafting interval by 0.2s",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/crafting.png",
+    "acquiredBy": "Crafting",
+    "skill": 14,
+    "modifiers": {
+      "decreasedSkillInterval": [
+        [
+          14,
+          200
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Gunter",
+    "description": "+10% chance to Preserve Resources in Runecrafting.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/runecrafting.svg",
+    "acquiredBy": "Runecrafting",
+    "skill": 15,
+    "chance": 10,
+    "modifiers": {
+      "increasedSkillPreservationChance": [
+        [
+          15,
+          10
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Gronk",
+    "description": "2% Chance to brew double Potions",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/herblore.png",
+    "acquiredBy": "Herblore",
+    "skill": 19,
+    "chance": 2,
+    "modifiers": {
+      "increasedChanceToDoubleItemsSkill": [
+        [
+          19,
+          2
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Bruce",
+    "description": "Gain +3 Hidden Attack Level",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/attack.svg",
+    "acquiredBy": "Attack",
+    "skill": 6,
+    "modifiers": {
+      "increasedHiddenSkillLevel": [
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Lil Ron",
+    "description": "Gain +3 Hidden Strength Level",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/strength.svg",
+    "acquiredBy": "Strength",
+    "skill": 7,
+    "modifiers": {
+      "increasedHiddenSkillLevel": [
+        [
+          7,
+          3
+        ]
+      ]
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Leonardo",
+    "description": "Gain +1% Damage Reduction",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/defence.svg",
+    "acquiredBy": "Defence",
+    "skill": 8,
+    "modifiers": {
+      "increasedDamageReduction": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Finn, the Cat",
+    "description": "Gain +10 Maximum HP",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/hitpoints.png",
+    "acquiredBy": "Hitpoints",
+    "skill": 9,
+    "modifiers": {
+      "increasedMaxHitpoints": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Marahute",
+    "description": "+5% Chance to preserve Ammo",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/ranged.png",
+    "acquiredBy": "Ranged",
+    "skill": 12,
+    "modifiers": {
+      "increasedAmmoPreservation": 5
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Salem",
+    "description": "+5% Chance to preserve all Runes when casting Magic",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/magic.svg",
+    "acquiredBy": "Magic",
+    "skill": 16,
+    "modifiers": {
+      "increasedRunePreservation": 5
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Monk-ey",
+    "description": "+5% Chance to ignore Prayer Point cost.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/prayer.png",
+    "acquiredBy": "Prayer",
+    "skill": 17,
+    "modifiers": {
+      "increasedChanceToPreservePrayerPoints": 5
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Asura",
+    "description": "<small>Created by Patreon ( [ ] )</small><br>+20% Extra Slayer Coins from Slayer Tasks",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/slayer.png",
+    "acquiredBy": "Slayer Task",
+    "skill": 18,
+    "modifiers": {
+      "increasedSlayerCoins": 20
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Golden Golbin",
+    "description": "+1% chance to double loot acquired through combat.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/golden_golbin.svg",
+    "acquiredBy": "Combat",
+    "killCount": 42069,
+    "skill": -1,
+    "modifiers": {
+      "increasedChanceToDoubleLootCombat": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Ty",
+    "description": "+3% Global Mastery XP",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/ty.svg",
+    "acquiredBy": "Mastery",
+    "skill": 0,
+    "modifiers": {
+      "increasedGlobalMasteryXP": 3
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Peri",
+    "description": "+5% Evasion Ratings",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/peri.svg",
+    "acquiredBy": "Perilous Peaks",
+    "skill": -1,
+    "modifiers": {
+      "increasedMeleeEvasion": 5,
+      "increasedRangedEvasion": 5,
+      "increasedMagicEvasion": 5
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Otto",
+    "description": "0.1s Attack Speed Reduction",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/octopus.svg",
+    "acquiredBy": "Dark Waters",
+    "skill": -1,
+    "modifiers": {
+      "decreasedPlayerAttackSpeed": 100
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Ripper the Reindeer",
+    "description": "Christmas Event 2020 Pet",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/ripper.svg",
+    "acquiredBy": "Christmas Event 2020",
+    "skill": -1,
+    "ignoreCompletion": true,
+    "activeInRaid": false
+  },
+  {
+    "name": "Chick",
+    "description": "Chicken Coop Boss Pet<br>+1% Global Accuracy",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/chicken_coop.svg",
+    "acquiredBy": "Chicken Coop",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          0,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedGlobalAccuracy": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Zarrah",
+    "description": "Undead Graveyard Boss Pet<br>+1% GP From Monsters",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/undead_graveyard.svg",
+    "acquiredBy": "Undead Graveyard",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          1,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedGPFromMonsters": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Chio",
+    "description": "Bandit Base Boss Pet<br>+2% Ranged Strength Bonus",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/bandit_base.svg",
+    "acquiredBy": "Bandit Base",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          6,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedRangedStrengthBonus": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Bouncing Bob",
+    "description": "Hall of Wizards Boss Pet<br>+2% Magic Damage Bonus",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/hall_of_wizards.svg",
+    "acquiredBy": "Hall of Wizards",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          7,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedMagicDamageBonus": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Rosey",
+    "description": "Spider Forest Boss Pet<br>+1% Chance To Double Loot in Combat",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/spider_forest.svg",
+    "acquiredBy": "Spider Forest",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          2,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedChanceToDoubleLootCombat": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Jelly Jim",
+    "description": "Miolite Caves Boss Pet<br>+2% Rune Preservation",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/miolite_caves.svg",
+    "acquiredBy": "Miolite Caves",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          13,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedRunePreservation": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Ayyden",
+    "description": "Deep Sea Ship Boss Pet<br>+2% Slayer Coins",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/deep_sea_ship.svg",
+    "acquiredBy": "Deep Sea Ship",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          4,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedSlayerCoins": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Arctic Yeti",
+    "description": "Frozen Cove Boss Pet<br>Named after Winner of 2020 Fan Art Competition<br>+2% Ammo Preservation",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/frozen_cove.svg",
+    "acquiredBy": "Frozen Cove",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          3,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedAmmoPreservation": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Harley",
+    "description": "Dragons Den Boss Pet<br>+1% Damage To Combat Area Monsters",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/dragons_den.svg",
+    "acquiredBy": "Dragons Den",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          12,
+          350
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedDamageToCombatAreaMonsters": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Mac",
+    "description": "Volcanic Cave Boss Pet<br>+1% Damage To Slayer Area Monsters",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/volcanic_cave.svg",
+    "acquiredBy": "Volcanic Cave",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          5,
+          200
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedDamageToSlayerAreaMonsters": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Singe",
+    "description": "Infernal Stronghold Boss Pet<br>+1% Damage To Dungeon Monsters",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/infernal_stronghold.svg",
+    "acquiredBy": "Infernal Stronghold",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          14,
+          200
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedDamageToDungeonMonsters": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Aquarias",
+    "description": "Air God Dungeon Boss Pet<br>+1% Chance to Double Items Globally",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/air_god_dungeon.svg",
+    "acquiredBy": "Air God Dungeon",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          8,
+          150
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedChanceToDoubleItemsGlobal": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Norman",
+    "description": "Water God Dungeon Boss Pet<br>+3% Chance To Preserve Prayer Points",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/water_god_dungeon.svg",
+    "acquiredBy": "Water God Dungeon",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          9,
+          150
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedChanceToPreservePrayerPoints": 3
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Erran",
+    "description": "Earth God Dungeon Boss Pet<br>+1% Damage Reduction",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/earth_god_dungeon.svg",
+    "acquiredBy": "Earth God Dungeon",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          10,
+          150
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedDamageReduction": 1
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Ren",
+    "description": "Fire God Dungeon Boss Pet<br>+2% Max Hit",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fire_god_dungeon.svg",
+    "acquiredBy": "Fire God Dungeon",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          11,
+          150
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedMaxHitPercent": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Pablo",
+    "description": "Into the Mist Boss Pet<br>+2% Damage To All Monsters",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/into_the_mist.svg",
+    "acquiredBy": "Into the Mist",
+    "skill": -1,
+    "obtained": {
+      "dungeonCompletion": [
+        [
+          15,
+          5
+        ]
+      ]
+    },
+    "modifiers": {
+      "increasedDamageToAllMonsters": 2
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Sam",
+    "description": "Agility<br>+15% GP From Agility",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/sloth.svg",
+    "acquiredBy": "Agility",
+    "skill": 20,
+    "modifiers": {
+      "increasedGPFromAgility": 15
+    },
+    "activeInRaid": false
+  },
+  {
+    "name": "Jerry the Giraffe",
+    "description": "Start the Golbin Raid with an Adamant Scimitar",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/giraffe.svg",
+    "acquiredBy": "Golbin Raid Shop",
+    "skill": -1,
+    "modifiers": {
+      "golbinRaidStartingWeapon": 436
+    },
+    "ignoreCompletion": true,
+    "activeInRaid": true
+  },
+  {
+    "name": "Preston the Platypus",
+    "description": "+1000 to starting Elemental Rune count.",
+    "media": "https://cdn.melvor.net/core/v018/assets/media/pets/platypus.svg",
+    "acquiredBy": "Golbin Raid Shop",
+    "skill": -1,
+    "modifiers": {
+      "golbinRaidIncreasedStartingRuneCount": 1000
+    },
+    "ignoreCompletion": true,
+    "activeInRaid": true
+  }
+]

@@ -48,11 +48,16 @@
              [:p {:class "menu-label"}
               (name (key sm))]
              [:ul {:class "menu-list"}
-              (map (fn [li] [:li {:key li} [:a li]]) (val sm))]]) @menu-map)]))
+              (map (fn [li]
+                     [:li {:key li}
+                      [:a {:onClick
+                           (fn [e]
+                             (let [skill-title (.. ^string e -nativeEvent -target -innerHTML)]
+                               (re-frame/dispatch [::events/overwrite-db :active-panel skill-title])))} li]]) (val sm))]]) @menu-map)]))
 
 (defn home-panel []
   (let [pasted-data (atom "")
-        save-data (re-frame/subscribe [::subs/save-data])]
+        my-sub (re-frame/subscribe [::subs/shop-skill-modifiers])]
     [:div {:class "columns"}
      [:div {:class "columns column is-4"}
       [:div {:class "column"}
@@ -69,18 +74,24 @@
                     (re-frame/dispatch [::events/import-save-data @pasted-data]))}
         "Import"]]]
      [:div {:class "column"}
-      [:p @save-data]]]))
+      (map (fn [p] [:p p]) @my-sub)]]))
+
+(defn skill-panel [active-skill]
+  [:p active-skill])
 
 (defn main-panel []
-  (let [name (re-frame/subscribe [::subs/name])]
+  (let [name (re-frame/subscribe [::subs/name])
+        active-panel (re-frame/subscribe [::subs/active-panel])]
     [:div {:class "container pl-4 pr-6" :style {:min-width "100vw"}}
-     [nav-bar]
+     ;;[nav-bar]
      [:div {:class "columns"}
       [:div {:class "column is-narrow"}
        [app-menu]]
       [:div {:class "column"}
        [:h1 {:class "title"}
         @name]
-       [home-panel]]]]))
+       (if (or (nil? @active-panel) (= @active-panel "Settings"))
+         [home-panel]
+         [skill-panel @active-panel])]]]))
 
 
