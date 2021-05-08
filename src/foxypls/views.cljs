@@ -2,7 +2,8 @@
   (:require
    [re-frame.core :as re-frame]
    [foxypls.subs :as subs]
-   [foxypls.events :as events]))
+   [foxypls.events :as events]
+   [foxypls.views.panels :refer [home panel-fn-by-string]]))
 
 (defn skill-xp-span [kv]
   (let [k (first (keys kv)) v (last (vals kv))] [:span {:style {:min-width "1rem"} :key k} (str "Level " k ": " v)]))
@@ -55,29 +56,9 @@
                              (let [skill-title (.. ^string e -nativeEvent -target -innerHTML)]
                                (re-frame/dispatch [::events/overwrite-db :active-panel skill-title])))} li]]) (val sm))]]) @menu-map)]))
 
-(defn home-panel []
-  (let [pasted-data (atom "")
-        my-sub (re-frame/subscribe [::subs/shop-skill-modifiers])]
-    [:div {:class "columns"}
-     [:div {:class "columns column is-4"}
-      [:div {:class "column"}
-       [:input
-        {:class "input is-primary" :type "text" :placeholder "Paste save data"
-         :onChange (fn [e]
-                     (.preventDefault e)
-                     (reset! pasted-data (.-value (.-target e))))}]]
-      [:div {:class "column"}
-       [:button
-        {:class "button is-primary"
-         :onClick (fn [e]
-                    (.preventDefault e)
-                    (re-frame/dispatch [::events/import-save-data @pasted-data]))}
-        "Import"]]]
-     [:div {:class "column"}
-      (map (fn [p] [:p p]) @my-sub)]]))
-
 (defn skill-panel [active-skill]
-  [:p active-skill])
+  [:div [:p active-skill]
+   ((panel-fn-by-string active-skill))])
 
 (defn main-panel []
   (let [name (re-frame/subscribe [::subs/name])
@@ -91,7 +72,7 @@
        [:h1 {:class "title"}
         @name]
        (if (or (nil? @active-panel) (= @active-panel "Settings"))
-         [home-panel]
+         [home]
          [skill-panel @active-panel])]]]))
 
 

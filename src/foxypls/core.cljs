@@ -5,6 +5,7 @@
    [foxypls.db :refer [json-files]]
    [foxypls.events :as events]
    [foxypls.views :as views]
+   [foxypls.views.panels :refer [home]]
    [foxypls.config :as config]))
 
 
@@ -25,6 +26,6 @@
 
 (defn init []
   (re-frame/dispatch-sync [::events/initialize-db])
-  (re-frame/dispatch-sync [::events/set-panel views/home-panel])
+  (re-frame/dispatch-sync [::events/set-panel home])
   (dev-setup)
   (mount-root))
