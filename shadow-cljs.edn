@@ -17,7 +17,7 @@
   8290 "target/browser-test"}
 
  :builds
- {:app
+ {:main
   {:target     :browser
    :output-dir "resources/public/js/compiled"
    :asset-path "/js/compiled"

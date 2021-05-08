@@ -15,6 +15,11 @@
  (fn [db [_ k e]]
    (update db k merge e)))
 
+(re-frame/reg-event-db
+ ::overwrite-db
+ (fn [db [_ k v]]
+   (assoc db k v)))
+
 (re-frame/reg-event-fx
  ::loaded-json
  []

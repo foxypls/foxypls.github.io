@@ -12,6 +12,11 @@
    (:name db)))
 
 (re-frame/reg-sub
+ ::active-panel
+ (fn [db]
+   (:active-panel db)))
+
+(re-frame/reg-sub
  ::skillxpdb
  (fn [db]
    (:skillxpdb db)))

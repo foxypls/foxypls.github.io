@@ -15,7 +15,6 @@
 (defn ^:dev/after-load mount-root []
   (re-frame/clear-subscription-cache!)
   ;(dorun (map #(re-frame/dispatch-sync [::events/loaded-json %]) json-files))
-  (js/console.log json-files)
   (loop [files json-files]
     (re-frame/dispatch-sync [::events/loaded-json (first files)])
     (when (> (count files) 1)
@@ -26,5 +25,6 @@
 
 (defn init []
   (re-frame/dispatch-sync [::events/initialize-db])
+  (re-frame/dispatch-sync [::events/set-panel views/home-panel])
   (dev-setup)
   (mount-root))
