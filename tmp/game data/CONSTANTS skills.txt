@@ -1,0 +1,23 @@
+{
+  "Woodcutting": 0,
+  "Fishing": 1,
+  "Firemaking": 2,
+  "Cooking": 3,
+  "Mining": 4,
+  "Smithing": 5,
+  "Attack": 6,
+  "Strength": 7,
+  "Defence": 8,
+  "Hitpoints": 9,
+  "Thieving": 10,
+  "Farming": 11,
+  "Ranged": 12,
+  "Fletching": 13,
+  "Crafting": 14,
+  "Runecrafting": 15,
+  "Magic": 16,
+  "Prayer": 17,
+  "Slayer": 18,
+  "Herblore": 19,
+  "Agility": 20
+}
