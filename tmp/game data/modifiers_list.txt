@@ -1,0 +1,328 @@
+increasedRuneProvision = 0;
+increasedChanceToDoubleLootCombat = 0;
+decreasedChanceToDoubleLootCombat = 0;
+increasedSlayerCoins = 0;
+decreasedSlayerCoins = 0;
+increasedGPGlobal = 0;
+decreasedGPGlobal = 0;
+increasedGPFromMonsters = 0;
+decreasedGPFromMonsters = 0;
+increasedGPFromMonstersFlat = 0;
+decreasedGPFromMonstersFlat = 0;
+increasedGPFromThieving = 0;
+decreasedGPFromThieving = 0;
+increasedGPFromThievingFlat = 0;
+decreasedGPFromThievingFlat = 0;
+increasedDamageToBosses = 0;
+decreasedDamageToBosses = 0;
+increasedDamageToSlayerTasks = 0;
+decreasedDamageToSlayerTasks = 0;
+increasedDamageToSlayerAreaMonsters = 0;
+decreasedDamageToSlayerAreaMonsters = 0;
+increasedDamageToCombatAreaMonsters = 0;
+decreasedDamageToCombatAreaMonsters = 0;
+increasedDamageToDungeonMonsters = 0;
+decreasedDamageToDungeonMonsters = 0;
+increasedDamageToAllMonsters = 0;
+decreasedDamageToAllMonsters = 0;
+increasedAutoEatEfficiency = 0;
+decreasedAutoEatEfficiency = 0;
+increasedAutoEatThreshold = 0;
+decreasedAutoEatThreshold = 0;
+increasedAutoEatHPLimit = 0;
+decreasedAutoEatHPLimit = 0;
+increasedFoodHealingValue = 0;
+decreasedFoodHealingValue = 0;
+increasedChanceToPreservePrayerPoints = 0;
+decreasedChanceToPreservePrayerPoints = 0;
+increasedFlatPrayerCostReduction = 0;
+decreasedFlatPrayerCostReduction = 0;
+increasedAmmoPreservation = 0;
+decreasedAmmoPreservation = 0;
+increasedRunePreservation = 0;
+decreasedRunePreservation = 0;
+increasedSlayerAreaEffectNegationFlat = 0;
+decreasedSlayerAreaEffectNegationFlat = 0;
+decreasedMonsterRespawnTimer = 0;
+increasedMonsterRespawnTimer = 0;
+increasedGPFromSales = 0;
+decreasedGPFromSales = 0;
+increasedBankSpace = 0;
+decreasedBankSpace = 0;
+increasedBankSpaceShop = 0;
+decreasedBankSpaceShop = 0;
+increasedChanceToPreservePotionCharge = 0;
+decreasedChanceToPreservePotionCharge = 0;
+increasedChanceToDoubleLootThieving = 0;
+decreasedChanceToDoubleLootThieving = 0;
+increasedGlobalPreservationChance = 0;
+decreasedGlobalPreservationChance = 0;
+increasedStaminaPreservationChance = 0;
+decreasedStaminaPreservationChance = 0;
+increasedGlobalMasteryXP = 0;
+decreasedGlobalMasteryXP = 0;
+increasedGlobalSkillXP = 0;
+decreasedGlobalSkillXP = 0;
+increasedMaxStamina = 0;
+decreasedMaxStamina = 0;
+increasedMiningNodeHP = 0;
+decreasedMiningNodeHP = 0;
+dungeonEquipmentSwapping = 0;
+increasedEquipmentSets = 0;
+autoSlayerUnlocked = 0;
+increasedTreeCutLimit = 0;
+increasedChanceToDoubleItemsGlobal = 0;
+decreasedChanceToDoubleItemsGlobal = 0;
+increasedFarmingYield = 0;
+decreasedFarmingYield = 0;
+increasedStaminaPerObstacle = 0;
+decreasedStaminaPerObstacle = 0;
+increasedSlayerTaskLength = 0;
+decreasedSlayerTaskLength = 0;
+increasedStaminaCost = 0;
+decreasedStaminaCost = 0;
+increasedGPFromAgility = 0;
+decreasedGPFromAgility = 0;
+increasedChanceToDoubleOres = 0;
+decreasedChanceToDoubleOres = 0;
+golbinRaidWaveSkipCostReduction = 0;
+golbinRaidIncreasedMinimumFood = 0;
+golbinRaidIncreasedMaximumAmmo = 0;
+golbinRaidIncreasedMaximumRunes = 0;
+golbinRaidPrayerUnlocked = 0;
+golbinRaidIncreasedPrayerLevel = 0;
+golbinRaidIncreasedPrayerPointsStart = 0;
+golbinRaidIncreasedPrayerPointsWave = 0;
+golbinRaidPassiveSlotUnlocked = 0;
+golbinRaidIncreasedStartingRuneCount = 0;
+golbinRaidStartingWeapon = 0;
+increasedPotionChargesFlat = 0;
+decreasedPotionChargesFlat = 0;
+increasedBirdNestDropRate = 0;
+decreasedBirdNestDropRate = 0;
+increasedChanceNoDamageMining = 0;
+decreasedChanceNoDamageMining = 0;
+increasedSeeingGoldChance = 0;
+decreasedSeeingGoldChance = 0;
+increasedChanceDoubleHarvest = 0;
+decreasedChanceDoubleHarvest = 0;
+increasedChanceForElementalRune = 0;
+decreasedChanceForElementalRune = 0;
+increasedElementalRuneGain = 0;
+decreasedElementalRuneGain = 0;
+increasedChanceRandomPotionHerblore = 0;
+decreasedChanceRandomPotionHerblore = 0;
+freeBonfires = 0;
+increasedAltMagicSkillXP = 0;
+decreasedAltMagicSkillXP = 0;
+aprilFoolsIncreasedMovementSpeed = 0;
+aprilFoolsDecreasedMovementSpeed = 0;
+aprilFoolsIncreasedTeleportCost = 0;
+aprilFoolsDecreasedTeleportCost = 0;
+aprilFoolsIncreasedUpdateDelay = 0;
+aprilFoolsDecreasedUpdateDelay = 0;
+aprilFoolsIncreasedLemonGang = 0;
+aprilFoolsDecreasedLemonGang = 0;
+aprilFoolsIncreasedCarrotGang = 0;
+aprilFoolsDecreasedCarrotGang = 0;
+increasedGPOnEnemyHit = 0;
+decreasedGPOnEnemyHit = 0;
+increasedAdditionalRunecraftCountRunes = 0;
+decreasedAdditionalRunecraftCountRunes = 0;
+summoningSynergy_0_1 = 0;
+summoningSynergy_0_6 = 0;
+summoningSynergy_0_7 = 0;
+summoningSynergy_0_8 = 0;
+summoningSynergy_0_12 = 0;
+summoningSynergy_0_13 = 0;
+summoningSynergy_0_14 = 0;
+summoningSynergy_0_15 = 0;
+summoningSynergy_1_2 = 0;
+summoningSynergy_1_8 = 0;
+summoningSynergy_1_12 = 0;
+summoningSynergy_1_13 = 0;
+summoningSynergy_1_14 = 0;
+summoningSynergy_1_15 = 0;
+summoningSynergy_2_12 = 0;
+summoningSynergy_2_13 = 0;
+summoningSynergy_2_15 = 0;
+summoningSynergy_3_4 = 0;
+summoningSynergy_3_5 = 0;
+summoningSynergy_3_9 = 0;
+summoningSynergy_3_10 = 0;
+summoningSynergy_3_11 = 0;
+summoningSynergy_3_16 = 0;
+summoningSynergy_3_17 = 0;
+summoningSynergy_3_18 = 0;
+summoningSynergy_3_19 = 0;
+summoningSynergy_4_5 = 0;
+summoningSynergy_4_9 = 0;
+summoningSynergy_4_10 = 0;
+summoningSynergy_4_11 = 0;
+summoningSynergy_4_16 = 0;
+summoningSynergy_4_17 = 0;
+summoningSynergy_4_18 = 0;
+summoningSynergy_4_19 = 0;
+summoningSynergy_5_9 = 0;
+summoningSynergy_5_10 = 0;
+summoningSynergy_5_11 = 0;
+summoningSynergy_5_16 = 0;
+summoningSynergy_5_17 = 0;
+summoningSynergy_5_18 = 0;
+summoningSynergy_6_7 = 0;
+summoningSynergy_6_8 = 0;
+summoningSynergy_6_12 = 0;
+summoningSynergy_6_13 = 0;
+summoningSynergy_6_14 = 0;
+summoningSynergy_6_15 = 0;
+summoningSynergy_7_8 = 0;
+summoningSynergy_7_12 = 0;
+summoningSynergy_7_13 = 0;
+summoningSynergy_7_14 = 0;
+summoningSynergy_7_15 = 0;
+summoningSynergy_8_12 = 0;
+summoningSynergy_8_13 = 0;
+summoningSynergy_8_14 = 0;
+summoningSynergy_9_10 = 0;
+summoningSynergy_9_11 = 0;
+summoningSynergy_9_16 = 0;
+summoningSynergy_9_17 = 0;
+summoningSynergy_9_18 = 0;
+summoningSynergy_9_19 = 0;
+summoningSynergy_10_11 = 0;
+summoningSynergy_10_16 = 0;
+summoningSynergy_10_17 = 0;
+summoningSynergy_10_18 = 0;
+summoningSynergy_10_19 = 0;
+summoningSynergy_11_16 = 0;
+summoningSynergy_11_17 = 0;
+summoningSynergy_11_18 = 0;
+summoningSynergy_11_19 = 0;
+summoningSynergy_12_13 = 0;
+summoningSynergy_12_14 = 0;
+summoningSynergy_13_14 = 0;
+summoningSynergy_16_17 = 0;
+summoningSynergy_16_18 = 0;
+summoningSynergy_16_19 = 0;
+summoningSynergy_17_18 = 0;
+summoningSynergy_17_19 = 0;
+summoningSynergy_18_19 = 0;
+increasedChanceToConvertSeedDrops = 0;
+increasedMeleeStrengthBonus = 0;
+decreasedMeleeStrengthBonus = 0;
+increasedRangedStrengthBonus = 0;
+decreasedRangedStrengthBonus = 0;
+increasedMagicDamageBonus = 0;
+decreasedMagicDamageBonus = 0;
+increasedAgilityObstacleCost = 0;
+decreasedAgilityObstacleCost = 0;
+decreasedFoodBurnChance = 0;
+decreasedSecondaryFoodBurnChance = 0;
+freeCompost = 0;
+increasedCompostPreservationChance = 0;
+increasedOffItemChance = 0;
+increasedFiremakingCoalChance = 0;
+increasedMiningGemChance = 0;
+doubleOresMining = 0;
+increasedBonusCoalMining = 0;
+decreasedSmithingCoalCost = 0;
+increasedThievingSuccessRate = 0;
+increasedThievingSuccessCap = 0;
+allowSignetDrops = 0;
+bonusCoalOnDungeonCompletion = 0;
+increasedMasteryPoolProgress = 0;
+bypassSlayerItems = 0;
+itemProtection = 0;
+increasedRedemptionPercent = 0;
+increasedRedemptionThreshold = 0;
+autoLooting = 0;
+autoBurying = 0;
+increasedCombatStoppingThreshold = 0;
+decreasedSummoningShardCost = 0;
+increasedSummoningShardCost = 0;
+increasedSummoningCreationCharges = 0;
+decreasedSummoningCreationCharges = 0;
+increasedSummoningChargePreservation = 0;
+decreasedSummoningChargePreservation = 0;
+decreasedPrayerCost = 0;
+increasedPrayerCost = 0;
+increasedGPMultiplierPer1MGP = 0;
+increasedGPMultiplierCap = 0;
+increasedGPMultiplierMin = 0;
+allowAttackAugmentingMagic = 0;
+skillModifiers = new Map();
+    }
+    get combatLootDoubleChance() {
+return increasedChanceToDoubleItemsGlobal - decreasedChanceToDoubleItemsGlobal + increasedChanceToDoubleLootCombat - decreasedChanceToDoubleLootCombat;
+    }
+    get increasedCombatGP() {
+return increasedGPFromMonsters - decreasedGPFromMonsters + increasedGPGlobal - decreasedGPGlobal;
+    }
+    get runePreservationChance() {
+const chance = increasedRunePreservation - decreasedRunePreservation;
+return Math.min(chance, 80);
+    }
+    get ammoPreservationChance() {
+const chance = increasedAmmoPreservation - decreasedAmmoPreservation;
+return Math.min(chance, 80);
+    }
+    const conditionalModifierData = [{
+    itemID: CONSTANTS.item.Crown_of_Rhaelyx,
+    modifiers: {
+increasedGlobalPreservationChance: 15,
+    },
+    active: false,
+    type: 'BankItem',
+    bankItemID: CONSTANTS.item.Charge_Stone_of_Rhaelyx,
+}, {
+    itemID: CONSTANTS.item.Guardian_Amulet,
+    modifiers: {
+increasedDamageReduction: 5,
+increasedAttackIntervalPercent: 10,
+    },
+    active: false,
+    type: 'Hitpoints',
+    percent: 50
+}, {
+    itemID: CONSTANTS.item.Cooking_Gloves,
+    modifiers: {
+decreasedFoodBurnChance: 100,
+decreasedSecondaryFoodBurnChance: 1,
+    },
+    active: false,
+    type: 'GloveCharges',
+    gloveID: CONSTANTS.shop.gloves.Cooking
+}, {
+    itemID: CONSTANTS.item.Gem_Gloves,
+    modifiers: {
+increasedMiningGemChance: 100,
+    },
+    active: false,
+    type: 'GloveCharges',
+    gloveID: CONSTANTS.shop.gloves.Gem
+}, {
+    itemID: CONSTANTS.item.Mining_Gloves,
+    modifiers: {
+doubleOresMining: 1,
+    },
+    active: false,
+    type: 'GloveCharges',
+    gloveID: CONSTANTS.shop.gloves.Mining
+}, {
+    itemID: CONSTANTS.item.Smithing_Gloves,
+    modifiers: {
+increasedSkillXP: [[CONSTANTS.skill.Smithing, 60]],
+    },
+    active: false,
+    type: 'GloveCharges',
+    gloveID: CONSTANTS.shop.gloves.Smithing
+}, {
+    itemID: CONSTANTS.item.Thieving_Gloves,
+    modifiers: {
+increasedThievingSuccessCap: 5,
+increasedThievingSuccessRate: 10
+    },
+    active: false,
+    type: 'GloveCharges',
+    gloveID: CONSTANTS.shop.gloves.Thieving
+}];
