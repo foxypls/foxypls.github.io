@@ -1,3 +1,12 @@
+REAL LIST
+1. update save data parsing/deserialize
+2. create player skill modifiers
+
+
+
+
+
+old shit
 1. parse save data variables
     1.a. parse new save data for what's important for calcs
     2.b create global modifiers from shop data/item data
@@ -20,7 +29,7 @@
 
 
 
-
+idk old shit maybe
 1 create home page - whiteboard.png
 2 text input on the home page
     save decoding and parsing, cb sim table data
